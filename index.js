@@ -33,13 +33,13 @@ const writtenManagerCards = () => {
 
 const writtenEngineerCards = () => {
     for (i = 0; i < engineerCard.length; i++) {
-        return html.makeEngineerCard(engineerCard[i]);
+       return html.makeEngineerCard(engineerCard[i]);
     }
 };
 
 const writtenInternCards = () => {
     for (i = 0; i < internCard.length; i++) {
-        return html.makeInternCard(internCard[i]);
+       return html.makeInternCard(internCard[i]);
     }
 };
 
