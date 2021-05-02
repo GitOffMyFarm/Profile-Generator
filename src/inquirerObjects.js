@@ -1,9 +1,11 @@
-const firstQuestion = {
+const firstQuestion = [
+    {
     type: 'list',
     message: 'What would you like to log?',
     name: 'employeeType',
     choices: ['Manager', 'Engineer', 'Intern']
-};
+}
+];
 const managerQuestions = [
     {
         type: 'input',
@@ -70,3 +72,39 @@ const internQuestions = [
         name: 'school'
     }
 ];
+
+const lastQuestion = [
+    {
+    type:'list',
+    message: 'What would you like to do next?',
+    name: 'lastChoice',
+    choices: ['Add Employee', 'Build Team']
+}
+];
+
+const buildEmployee = (employeeType) => {
+    switch (employeeType) {
+        case 'Manager':
+          employeeType = managerQuestions;
+          break;
+        case 'Engineer':
+          employeeType = engineerQuestions;
+          break;
+        case 'Intern':
+            employeeType = internQuestions;
+            break;
+        }
+      return employeeType
+};
+const possibleEnd = (lastOne) => {
+    switch (lastOne) {
+        case 'Add Employee':
+            lastOne = true;
+            break;
+        case 'Build Team':
+            lastOne = false;
+            break;
+    }
+    return lastOne
+};
+module.exports = {firstQuestion, managerQuestions, engineerQuestions, internQuestions, lastQuestion, buildEmployee, possibleEnd}
