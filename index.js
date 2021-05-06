@@ -42,6 +42,9 @@ const init = () => {
                 }
                 else {
                     writeFile();
+                    console.log(html.managers);
+                    console.log(html.engineers);
+                    console.log(html.interns);
                 }
             })
         }
