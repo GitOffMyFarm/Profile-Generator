@@ -13,7 +13,7 @@ const managerQuestions = [
         name: 'name',
     },
     {
-        type: 'number',
+        type: 'input',
         message: 'Employee ID',
         name: 'employeeId'
     },
@@ -35,7 +35,7 @@ const engineerQuestions = [
         name: 'name',
     },
     {
-        type: 'number',
+        type: 'input',
         message: 'Employee ID',
         name: 'employeeId'
     },
@@ -57,7 +57,7 @@ const internQuestions = [
         name: 'name',
     },
     {
-        type: 'number',
+        type: 'input',
         message: 'Employee ID',
         name: 'employeeId'
     },

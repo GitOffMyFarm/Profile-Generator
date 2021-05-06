@@ -1,7 +1,3 @@
-const Employee = require('./lib/employee');
-const Engineer = require('./lib/engineer');
-const Intern = require('./lib/intern');
-const Manager = require('./lib/manager');
 const html = require('./src/newHtml');
 const objects = require('./src/inquirerObjects');
 const fs = require('fs');
