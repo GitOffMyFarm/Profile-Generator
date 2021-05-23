@@ -26,7 +26,9 @@
   
   ## Usage
   
-  Very simple, can only create HTML page once so do not hit build team until you've added all team members
+  Very simple, can only create HTML page once so do not hit build team until you've added all team members. Example:
+
+  ![Application Image](https://github.com/GitOffMyFarm/Profile-Generator/blob/main/assets/generator.PNG)
   
   ## Contributing Guidelines
   
